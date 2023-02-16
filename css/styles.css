@@ -1,0 +1,139 @@
+/* цвет основного текста+ акцент1 для героя и футера: #2E2F42  --primary-text-color */
+/* цвет в основном параграфов: #434455 --color-of-paraghraphs */
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  background: #e5e5e5;
+}
+/* Все цвета сайта*/
+:root {
+  --accent-text-color: #2e2f42;
+  --accent-text-color-two: #4d5ae5;
+  --color-of-paraghraphs: #434455;
+  --title-hero-button: #ffffff;
+  --not-white-color: #f4f4fd;
+  --footer-text: #e7e9fc;
+}
+/*Для сброса*/
+.list {
+  list-style: none;
+}
+
+/* Logo*/
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  letter-spacing: 0.03em;
+  color: var(--accent-text-color);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-color {
+  color: var(--accent-text-color-two);
+}
+.logo-footer {
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 33;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--not-white-color);
+}
+/* Header*/
+.link-navigation {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--accent-text-color);
+}
+.nav-adress {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--color-of-paraghraphs);
+  font-style: normal;
+}
+/*Секция герой*/
+.hero-section {
+  background-color: var(--accent-text-color);
+}
+.title-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  color: var(--title-hero-button);
+}
+.button-hero {
+  background-color: var(--accent-text-color-two);
+  color: var(--title-hero-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+}
+/* Секция our advantages*/
+
+.hidden-header {
+  display: none;
+}
+.title-our-advantages {
+  color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+}
+.text-our-advantages {
+  color: var(--color-of-paraghraphs);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+}
+
+/*Секция What are we doing*/
+.title-our-services {
+  color: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+}
+/*Секция Our Team*/
+.section-our-team {
+  background-color: var(--not-white-color);
+}
+.title-section-our-team {
+  color: var(--accent-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+}
+.images-our-team {
+  background-color: var(--title-hero-button);
+}
+.names-of-our-team {
+  color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+}
+.proffesionals-of-our-team {
+  color: var(--color-of-paraghraphs);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/*Футер*/
+.footer {
+  background-color: var(--accent-text-color);
+}
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  color: var(--footer-text);
+}
