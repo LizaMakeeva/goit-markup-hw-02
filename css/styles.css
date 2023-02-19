@@ -3,7 +3,7 @@ body {
   letter-spacing: 0.02em;
   background: var(--main-color-background);
 }
-/* Все цвета сайта*/
+/* Все цвета и шрифты сайта*/
 :root {
   --main-color-background: #e5e5e5;
   --accent-text-color: #2e2f42;
@@ -134,7 +134,7 @@ body {
 .proffesionals-of-our-team {
   color: var(--color-of-paraghraphs);
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1, 5;
 }
 /*Футер*/
 .footer {
