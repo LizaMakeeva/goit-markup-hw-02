@@ -1,7 +1,7 @@
 body {
   font-family: var(--main-font-family-for-site);
   letter-spacing: 0.02em;
-  background: var(--main-color-background);
+  background: var(--title-hero-button);
 }
 /* Все цвета и шрифты сайта*/
 :root {
@@ -37,7 +37,7 @@ body {
   font-family: var(--font-family-for-logo);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   color: var(--accent-text-color);
   text-transform: uppercase;
@@ -51,7 +51,7 @@ body {
   font-family: var(--font-family-for-logo);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--not-white-color);
@@ -61,7 +61,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--accent-text-color);
 }
 .link-navigation:hover,
@@ -73,7 +73,7 @@ body {
 .nav-adress {
   text-decoration: none;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--color-of-paraghraphs);
   font-style: normal;
 }
@@ -83,7 +83,7 @@ body {
 }
 .title-hero {
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   color: var(--title-hero-button);
 }
 .button-hero {
@@ -91,27 +91,28 @@ body {
   color: var(--title-hero-button);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   cursor: pointer;
+  font-family: var(--main-font-family-for-site);
 }
 /* Секция our advantages*/
 .title-our-advantages {
   color: var(--accent-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 .text-our-advantages {
   color: var(--color-of-paraghraphs);
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
 }
 
 /*Секция What are we doing*/
 .title-our-services {
   color: var(--accent-text-color);
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
 }
 /*Секция Our Team*/
 .section-our-team {
@@ -120,7 +121,7 @@ body {
 .title-section-our-team {
   color: var(--accent-text-color);
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
 }
 .images-our-team {
   background-color: var(--title-hero-button);
@@ -129,12 +130,12 @@ body {
   color: var(--accent-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 .proffesionals-of-our-team {
   color: var(--color-of-paraghraphs);
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
 }
 /*Футер*/
 .footer {
@@ -142,7 +143,7 @@ body {
 }
 .text-footer {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--footer-text);
 }
 
@@ -150,11 +151,12 @@ body {
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--accent-text-color-two);
   background-color: var(--not-white-color);
   cursor: pointer;
   letter-spacing: 0.04em;
+  font-family: var(--main-font-family-for-site);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
@@ -164,11 +166,11 @@ body {
 .title-of-img-portfolio {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   color: var(--accent-text-color);
 }
 .paraghraph-text-portfolio {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: var(--color-of-paraghraphs);
 }
